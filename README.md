@@ -21,8 +21,9 @@
 7. Add Editor access <img width="524" alt="Screenshot 2021-08-19 at 8 17 14 PM" src="https://user-images.githubusercontent.com/22203782/130089879-90945ae5-3c39-4c58-9f44-f3676fb5d39b.png">
 8. Click Done
 9. Once create, go inside that service account
-10. Clikck key and add key -> Create new key -> Json <img width="1175" alt="Screenshot 2021-08-19 at 8 18 16 PM" src="https://user-images.githubusercontent.com/22203782/130090057-ed18bf5f-6a64-47ab-b668-e70d5fb64189.png">
+10. Click key and add key -> Create new key -> Json <img width="1175" alt="Screenshot 2021-08-19 at 8 18 16 PM" src="https://user-images.githubusercontent.com/22203782/130090057-ed18bf5f-6a64-47ab-b668-e70d5fb64189.png">
 11. It will donwload json file. Rename and put in working directory
+12. Share your google sheet with Service Account, so that this account can edit
 
 
 # Now Run the main.py now
