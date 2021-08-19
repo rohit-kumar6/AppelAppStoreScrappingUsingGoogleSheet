@@ -1,7 +1,6 @@
 import gspread
 import rpa as r
 from urllib.parse import urlparse
-import requests
 import re
 
 gc = gspread.service_account(filename="cred.json")
@@ -27,20 +26,5 @@ for row in range(2, rowCount + 1):
                                         innerText, re.I))  # re.I: (ignore case)
             emails.update(new_emails)
             worksheet.update_cell(row, 5, ",".join(emails))
-
-            # try:
-            #
-            #
-            #     response = requests.get(privacyPolicyWebsite, timeout=60)
-            #     new_emails = set(re.findall(r"([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)",
-            #                                 response.text, re.I))  # re.I: (ignore case)
-            #     emails.update(new_emails)
-            #     worksheet.update_cell(row, 5, ",".join(emails))
-            # except Exception as e:
-            #     # ignore pages with errors and continue with next url
-            #     continue
-
-    if row == 500:
-        break
 
 r.close()
