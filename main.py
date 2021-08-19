@@ -5,7 +5,7 @@ import requests
 import re
 
 gc = gspread.service_account(filename="cred.json")
-sh = gc.open_by_key("1Y3uWi0aCC88tIB-MoQ9oR3xTPsPZl3ZGWHrL5ya2R4U")
+sh = gc.open_by_key("GOOGLE_SHEET_KEY")
 worksheet = sh.sheet1
 r.init()
 
