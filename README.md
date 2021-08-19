@@ -1,4 +1,4 @@
-# AppelAppStoreScrappingUsingGoogleSheetAppelAppStoreScrappingUsingGoogleSheet
+# AppelAppStoreScrappingUsingGoogleSheet
 
 # Setup Virtual Environment Python
 1. Cd into Respective folder
