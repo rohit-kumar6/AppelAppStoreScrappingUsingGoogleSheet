@@ -8,8 +8,8 @@
 5. pip install -r requirements.txt
 
 # Setup Google sheet access
-Create Cred.json File, Put in Respective folder where code is present
-Replace google sheet key in main.py line no 8
+1. Create Cred.json File, Put in Respective folder where code is present
+2. Replace google sheet key in main.py line no 8
 
 # Create Cred.json
 
